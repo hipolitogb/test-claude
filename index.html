@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web World - Tim Berners-Lee's Legacy</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .profile-img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 2rem auto;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin: 1.5rem 0;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            text-align: center;
+            padding: 2rem;
+            border-left: 4px solid var(--accent-color);
+            margin: 2rem 0;
+            background: rgba(52, 152, 219, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 1rem;
+            }
+            
+            .profile-img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>The World Wide Web Revolution</h1>
+        <p>A journey through the creation that changed humanity forever</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <img src="/api/placeholder/300/300" alt="Tim Berners-Lee" class="profile-img">
+            
+            <h2>The Birth of the World Wide Web</h2>
+            <p>In the halls of CERN, during the late 1980s, Tim Berners-Lee envisioned a revolutionary way to share information across computers. This vision would ultimately transform into the World Wide Web, fundamentally changing how humanity communicates, works, and lives.</p>
+
+            <div class="quote">
+                "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past." - Tim Berners-Lee
+            </div>
+
+            <h2>A Universal Information Space</h2>
+            <p>The Web was conceived as a universal information space, where anyone could share knowledge with anyone else, anywhere. By creating HTML, HTTP, and URLs, Berners-Lee laid the foundation for a technology that would democratize information sharing on an unprecedented scale.</p>
+
+            <h2>The Power of Open Standards</h2>
+            <p>Perhaps one of Berners-Lee's most significant decisions was to make the World Wide Web an open system. By making the technology freely available, without patents or royalties, he ensured that anyone could use it, improve it, and build upon it. This decision catalyzed the explosive growth of the Web throughout the 1990s and beyond.</p>
+
+            <h2>Legacy and Impact</h2>
+            <p>Today, the Web has become an integral part of human civilization. It has revolutionized commerce, education, entertainment, and social interaction. From simple text pages to complex web applications, from e-commerce to social media, the Web continues to evolve and shape our world in ways that even its creator couldn't have fully imagined.</p>
+        </div>
+    </div>
+</body>
+</html>
